@@ -44,11 +44,11 @@ ent2 = Entry(win, textvariable=result, width=50,
 ent2.place(relx=0.5, rely=0.7, anchor=CENTER)
 
 
-msg = Label(win, text='Guess a number between 1 to 100 ',bg='yellow',
+msg = Label(win, text='Guess a number between 1 to 100 no ',bg='yellow',
             font=("Courier", 25))
 msg.place(relx=0.5, rely=0.09, anchor=CENTER)
 
-msg1 = Label(win, text=no, font=("Courier", 25))
+msg1 = Label(win, text=no, bg="red",font=("Courier", 25))
 msg1.place(relx=0.5, rely=0.9, anchor=CENTER)
 
 try_no = Button(win, width=8, text='TRY', font=(
